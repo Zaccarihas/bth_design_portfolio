@@ -3,9 +3,15 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
-==========================
 
-The source for this page is in `content/index.md`.
+Välkommen hit ![Bild på mig](assets/img/me.jpg)
+===============================================
 
-This is a sample home page written in markdown with some frontmatter defined.
+Jag heter Anders Löfqvist och jag har skapat den här sidan med hjälp av ramverket pico.
+
+Jag är en man i mina bästa år (50+), med sambo, ett gäng tonåringar och en hund. Har alltid gillat att hålla  på med datorer
+och då kanske främst att programmera. Jag sjunger också i coverband och trubadurar lite när jag får lust och tid.
+
+
+
+

@@ -1,7 +1,3 @@
-body {
-    background: pink;
-}
-
 * {
     box-sizing: border-box;
     border: 0 none;
@@ -20,6 +16,11 @@ ol, ul {
 html, body {
     height: 100%;
 }
+
+body {
+    margin: 30px;
+}
+
 
 /* Placement */
 
