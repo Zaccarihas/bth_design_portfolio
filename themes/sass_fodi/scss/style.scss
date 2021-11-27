@@ -1,0 +1,17 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquote';
+@import 'code';
+@import 'mobilenav';
+
+/*
+Set the default colors
+*/
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+}
