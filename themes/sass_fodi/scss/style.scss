@@ -1,17 +1,69 @@
 @import '../../node_modules/normalize.css/normalize';
+
+
+// Import fonts
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
 @import 'variables';
 
 @import 'blockquote';
 @import 'code';
-@import 'mobilenav';
+@import 'nav';
+
+
 
 /*
 Set the default colors
 */
 body {
     background-color: $background-color;
+    margin: 2%;
 }
 
 * {
+    font-family: 'Roboto', sans-serif;
     color: $font-color;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    min-width: 50px;
+    min-height: 50px;
+    float: left;
+    margin-right: 50px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.footer {
+
+    margin-top: 50px;
+    clear: right;
+    padding: 10px;
+    font-style: italic;
+    border-top: 2px solid $background-accent-color;
+    font-size: 0.9rem;
+}
+
+.main img {
+    float: right;
+}
+
+

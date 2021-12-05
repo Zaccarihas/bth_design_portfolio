@@ -2,10 +2,10 @@
 Title: Home
 Description: This is our index page.
 ---
+![Bild på mig](%assets_url%/img/me.jpg)
 
-
-Välkommen hit ![Bild på mig](assets/img/me.jpg)
-===============================================
+Välkommen hit
+=============
 
 Jag heter Anders Löfqvist och jag har skapat den här sidan med hjälp av ramverket pico.
 

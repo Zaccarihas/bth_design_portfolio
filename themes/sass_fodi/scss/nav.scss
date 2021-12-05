@@ -1,0 +1,26 @@
+#nav {
+    background-color: $background-alternative-color;
+    padding-right: 4%;
+
+    a {
+        color: $font-alternative-color;
+    }
+
+    li {
+        border-top: 2px solid $background-alternative-color;
+        border-bottom: 2px solid $background-alternative-color;    
+    }
+
+    li:hover {
+        border-top: 2px solid $accent-color;
+        border-bottom: 2px solid $accent-color;
+    }
+
+    .active {
+        background-color: $accent-color;
+    }
+
+    .active:hover {
+        background-color: $background-alternative-color;
+    }
+}

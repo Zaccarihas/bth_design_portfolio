@@ -8,8 +8,8 @@
   },
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass sass_fodi/scss/style.scss sass_fodi/css/style.css --no-source-map",
-    "style-min": "sass sass_fodi/scss/style.scss sass_fodi/css/style.min.css --no-source-map --style compressed",
+    "style": "sass sass_fodi/scss/style.scss sass_fodi/css/style.css --no-source-map && sass new_fodi/scss/style.scss new_fodi/css/style.css --no-source-map",
+    "style-min": "sass sass_fodi/scss/style.scss sass_fodi/css/style.min.css --no-source-map --style compressed && sass new_fodi/scss/style.scss new_fodi/css/style.min.css --no-source-map --style compressed",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
