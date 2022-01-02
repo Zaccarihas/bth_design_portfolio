@@ -6488,32 +6488,32 @@ pre code {
 }
 
 #nav {
-  background-color: #000080;
+  background-color: #09545e;
   padding-right: 4%;
 }
 #nav a {
   color: #fff;
 }
 #nav li {
-  border-top: 2px solid #000080;
-  border-bottom: 2px solid #000080;
+  border-top: 2px solid #09545e;
+  border-bottom: 2px solid #09545e;
 }
 #nav li:hover {
-  border-top: 2px solid #ee6c4d;
-  border-bottom: 2px solid #ee6c4d;
+  border-top: 2px solid #de9800;
+  border-bottom: 2px solid #de9800;
 }
 #nav .active {
-  background-color: #ee6c4d;
+  background-color: #de9800;
 }
 #nav .active:hover {
-  background-color: #000080;
+  background-color: #09545e;
 }
 
 /*
 Set the default colors
 */
 body {
-  background-color: #9370db;
+  background-color: #1198ab;
   margin: 2%;
 }
 
@@ -6549,7 +6549,7 @@ h6 {
   clear: right;
   padding: 10px;
   font-style: italic;
-  border-top: 2px solid #800080;
+  border-top: 2px solid #0e0d0e;
   font-size: 0.9rem;
 }
 
