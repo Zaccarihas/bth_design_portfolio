@@ -1,0 +1,50 @@
+/*
+Set the default colors
+*/
+body {
+    background-color: $background-color;
+    margin: 2%;
+}
+
+* {
+    //font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: $font-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    //font-family: 'Open Sans', sans-serif;
+    font-family: 'Manuale', serif;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    min-width: 50px;
+    min-height: 50px;
+    float: left;
+    margin-right: 50px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.footer {
+
+    margin-top: 50px;
+    clear: right;
+    padding: 10px;
+    font-style: italic;
+    border-top: 2px solid $background-accent-color;
+    font-size: 0.9rem;
+}
+
+.main img {
+    float: right;
+}
