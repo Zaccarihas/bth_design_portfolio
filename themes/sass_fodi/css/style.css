@@ -6462,9 +6462,9 @@ blockquote {
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #ccc;
+  border: 2px solid #09545e;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #ab9911;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6472,9 +6472,9 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #ccc;
+  border: 2px solid #09545e;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #ab9911;
 }
 
 pre code {
@@ -6612,4 +6612,123 @@ h6 {
 
 .main img {
   float: right;
+}
+
+.landingpage {
+  display: grid;
+  gap: 1rem 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+@media (max-width: 767px) {
+  .landingpage {
+    display: grid;
+    gap: 1rem 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .landingpage h1 {
+    grid-column: span 2;
+  }
+
+  .kmom-box.project {
+    grid-column: span 2;
+  }
+}
+@media (max-width: 420px) {
+  .landingpage {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .landingpage h1 {
+    grid-column: span 1;
+  }
+
+  .kmom-box.project {
+    grid-column: span 1;
+  }
+}
+.techdisplay {
+  display: grid;
+  gap: 1rem 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.techdisplay h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+@media (max-width: 767px) {
+  .techdisplay {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .techdisplay h1 {
+    grid-column: span 2;
+  }
+}
+@media (max-width: 400px) {
+  .techdisplay {
+    grid-template-columns: 100%;
+  }
+
+  .techdisplay h1 {
+    grid-column: 1/-1;
+  }
+}
+.techdisplay > p {
+  background-color: #ab9911;
+  border: 1px solid #787030;
+  margin: 0;
+  padding: 0.6rem;
+}
+.techdisplay > p a {
+  text-decoration: none;
+}
+
+.techpresentation {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 100%;
+  gap: 1rem;
+}
+.techpresentation aside {
+  grid-column: 1;
+}
+.techpresentation aside h2 {
+  font-size: 1em;
+}
+.techpresentation aside a {
+  text-decoration: none;
+}
+.techpresentation aside a.active {
+  color: #09545e;
+}
+.techpresentation article {
+  grid-column: 2;
+}
+
+@media (max-width: 400px) {
+  .techpresentation {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+  }
+  .techpresentation aside {
+    display: none;
+  }
+  .techpresentation article {
+    grid-column: 1;
+  }
 }
