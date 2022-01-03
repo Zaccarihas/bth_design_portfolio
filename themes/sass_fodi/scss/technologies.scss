@@ -12,7 +12,7 @@
 
 @media (max-width: 767px) {
     .techdisplay {
-        grid-template-columns: repeat(2, 1fr)
+        grid-template-columns: repeat(2, 1fr);
     } 
 
     .techdisplay h1 {
@@ -22,7 +22,7 @@
 
 @media (max-width: 400px) {
     .techdisplay {
-        grid-template-columns: 100%
+        grid-template-columns: 100%;
     } 
 
     .techdisplay h1 {
@@ -59,7 +59,7 @@
         text-decoration: none;
     }
 
-    aside a.active {
+    aside .active {
         color: $comp-up-dark-shade;
     }
 
