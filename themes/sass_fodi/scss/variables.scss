@@ -1,16 +1,6 @@
-// Color palette
-$logo-color: #de9800;
-$comp-down-dark: #787030;
-$comp-down-light: #ab9911;
-$comp-up-light: #38a1e2;
-$comp-up-dark: #1198ab;
-$comp-up-dark-shade: #09545e;
-
-$font-color: #000;
-$font-alternative-color: #fff;
-$accent-color: $logo-color; //#ee6c4d;
+$accent-color: $main-color; //#ee6c4d;
 $background-color: $comp-up-dark; // #9370db;
-$background-accent-color: #0e0d0e;
+$background-accent-color: $black-tint;
 $background-alternative-color: $comp-up-dark-shade;//#000080;
 
 $distance-space: 10px;

@@ -10,7 +10,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 //@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manuale&family=Source+Sans+Pro&display=swap');
 
-@import 'lightcolors';
+@import 'darkcolors';
 @import 'variables';
 
 @import 'blockquote';
@@ -20,4 +20,5 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import 'base';
 @import 'report';
-@import 'technologies'
+@import 'technologies';
+

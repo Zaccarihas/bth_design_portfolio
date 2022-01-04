@@ -8,8 +8,14 @@
   },
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass sass_fodi/scss/style.scss sass_fodi/css/style.css --no-source-map && sass sass_fodi/scss/style.scss sass_fodi/css/style.css --no-source-map",
-    "style-min": "sass sass_fodi/scss/style.scss sass_fodi/css/style.min.css --no-source-map --style compressed && sass sass_fodi/scss/style.scss sass_fodi/css/style.min.css --no-source-map --style compressed",
+    "watch": "sass sass_fodi/scss/style.scss:sass_fodi/css/style.css sass_fodi/scss/style-dark.scss:sass_fodi/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass sass_fodi/scss/style.scss:sass_fodi/css/style.min.css sass_fodi/scss/style-dark.scss:sass_fodi/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "sass sass_fodi/scss/style.scss sass_fodi/css/style.css --no-source-map && sass sass_fodi/scss/style-dark.scss sass_fodi/css/style-dark.css --no-source-map",
+    "style-min": "sass sass_fodi/scss/style.scss sass_fodi/css/style.min.css --no-source-map --style compressed && sass sass_fodi/scss/style-dark.scss sass_fodi/css/style-dark.min.css --no-source-map --style compressed",
+    "style-dark": "sass sass_fodi/scss/style-dark.scss sass_fodi/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass sass_fodi/scss/style-dark.scss sass_fodi/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass sass_fodi/scss/style.scss sass_fodi/css/style.css --no-source-map",
+    "style-light-min": "sass sass_fodi/scss/style.scss sass_fodi/css/style.min.css --no-source-map --style compressed",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

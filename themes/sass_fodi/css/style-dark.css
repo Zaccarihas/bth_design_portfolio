@@ -6452,6 +6452,10 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+img {
+  filter: brightness(0.8) contrast(1.2);
+}
+
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6462,9 +6466,9 @@ blockquote {
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 2px solid #09545e;
+  border: 2px solid #032d33;
   border-radius: 0.3em;
-  background: #ab9911;
+  background: #857711;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6472,9 +6476,9 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 2px solid #09545e;
+  border: 2px solid #032d33;
   border-radius: 0.3em;
-  background: #ab9911;
+  background: #857711;
 }
 
 pre code {
@@ -6488,25 +6492,25 @@ pre code {
 }
 
 #nav {
-  background-color: #09545e;
+  background-color: #032d33;
   padding-right: 4%;
 }
 #nav a {
-  color: #fff;
+  color: #dedede;
 }
 #nav li {
-  border-top: 2px solid #09545e;
-  border-bottom: 2px solid #09545e;
+  border-top: 2px solid #032d33;
+  border-bottom: 2px solid #032d33;
 }
 #nav li:hover {
-  border-top: 2px solid #de9800;
-  border-bottom: 2px solid #de9800;
+  border-top: 2px solid #a06d00;
+  border-bottom: 2px solid #a06d00;
 }
 #nav .active {
-  background-color: #de9800;
+  background-color: #a06d00;
 }
 #nav .active:hover {
-  background-color: #09545e;
+  background-color: #032d33;
 }
 
 .slide {
@@ -6570,13 +6574,13 @@ pre code {
 Set the default colors
 */
 body {
-  background-color: #1198ab;
+  background-color: #084e57;
   margin: 2%;
 }
 
 * {
   font-family: "Source Sans Pro", sans-serif;
-  color: #000;
+  color: #cdcdcd;
 }
 
 h1,
@@ -6688,8 +6692,8 @@ h6 {
   }
 }
 .techdisplay > p {
-  background-color: #ab9911;
-  border: 1px solid #787030;
+  background-color: #857711;
+  border: 1px solid #534e21;
   margin: 0;
   padding: 0.6rem;
 }
@@ -6713,7 +6717,7 @@ h6 {
   text-decoration: none;
 }
 .techpresentation aside .active {
-  color: #09545e;
+  color: #032d33;
 }
 .techpresentation article {
   grid-column: 2;
