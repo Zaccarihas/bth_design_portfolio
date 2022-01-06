@@ -1,9 +1,15 @@
 /*
 Set the default colors
 */
+html {
+    background-color: $page-background-color;
+}
+
 body {
-    background-color: $background-color;
-    margin: 2%;
+    // margin: 2%;
+    max-width: 960px;
+    margin: auto;
+    background-color: $body-background-color;
 }
 
 * {
@@ -22,6 +28,17 @@ h6 {
     font-family: 'Manuale', serif;
 }
 
+img {
+    max-width: 100%;
+}
+
+img + em {
+    font-style: italic;
+    font-weight: bold;
+    color: $comp-down-dark;
+    font-size: 0.8em;
+}
+
 .logo img {
     width: 100px;
     height: 100px;
@@ -29,6 +46,12 @@ h6 {
     min-height: 50px;
     float: left;
     margin-right: 50px;
+}
+
+.header {
+    padding: 1rem;
+    background-color: $background-color;
+    margin-top: 1rem;
 }
 
 .header a {
@@ -43,6 +66,10 @@ h6 {
     font-style: italic;
     border-top: 2px solid $background-accent-color;
     font-size: 0.9rem;
+}
+
+.main {
+    padding: 2rem;
 }
 
 .main img {

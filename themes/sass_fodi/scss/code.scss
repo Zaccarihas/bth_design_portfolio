@@ -14,6 +14,7 @@ pre {
     border: 2px solid $comp-up-dark-shade;//#ccc;
     border-radius: 0.3em;
     background: $comp-down-light; //#f5f5f5;
+    overflow-x: auto;
 }
 
 pre code {
@@ -22,6 +23,6 @@ pre code {
     padding: 1.1111em 0;
     border: 0 none;
     background: transparent;
-    overflow-x: auto;
+    max-width: 100%;
     line-height: 1.4;
 }

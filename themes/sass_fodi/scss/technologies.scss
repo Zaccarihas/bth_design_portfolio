@@ -46,9 +46,18 @@
     grid-template-columns: auto auto;
     grid-template-rows: 100%;
     gap: 1rem;
+    max-width: 100%;
+    width: 80%;
+
+    h1,
+    h2,
+    h3 {
+        color: $comp-up-dark-shade;
+    }
 
     aside {
         grid-column: 1;
+        padding: 0.5em;
     }
 
     aside h2 {
@@ -57,6 +66,7 @@
 
     aside a {
         text-decoration: none;
+        color: $comp-down-dark;
     }
 
     aside .active {
