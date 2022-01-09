@@ -6595,7 +6595,7 @@ h6 {
   font-family: "Manuale", serif;
 }
 
-img {
+img, embed, object, video {
   max-width: 100%;
 }
 
@@ -6754,6 +6754,12 @@ img + em {
 }
 .techpresentation article {
   grid-column: 2;
+}
+
+.calcsheet {
+  max-width: 100%;
+  min-width: 100%;
+  height: 20rem;
 }
 
 @media (max-width: 400px) {
