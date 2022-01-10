@@ -1,0 +1,16 @@
+.gallery {
+    display: grid;
+    gap: 1rem 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 400px) {
+    .gallery {
+        grid-template-columns: 100%;
+    } 
+}
+
+.gallery > p {
+    width: 250px;
+    height: 250px;
+}

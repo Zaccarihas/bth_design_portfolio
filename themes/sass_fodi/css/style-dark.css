@@ -6599,7 +6599,10 @@ h6 {
   font-family: "Manuale", serif;
 }
 
-img, embed, object, video {
+img,
+embed,
+object,
+video {
   max-width: 100%;
 }
 

@@ -6595,7 +6595,10 @@ h6 {
   font-family: "Manuale", serif;
 }
 
-img, embed, object, video {
+img,
+embed,
+object,
+video {
   max-width: 100%;
 }
 
@@ -6774,4 +6777,19 @@ img + em {
   .techpresentation article {
     grid-column: 1;
   }
+}
+.gallery {
+  display: grid;
+  gap: 1rem 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 400px) {
+  .gallery {
+    grid-template-columns: 100%;
+  }
+}
+.gallery > p {
+  width: 250px;
+  height: 250px;
 }
