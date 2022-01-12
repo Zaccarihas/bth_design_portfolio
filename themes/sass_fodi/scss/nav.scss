@@ -17,10 +17,18 @@
     }
 
     .active {
-        background-color: $accent-color;
+        background-color: $accent-color;       
     }
 
     .active:hover {
         background-color: $background-alternative-color;
     }
+}
+
+#nav .active a {
+    color: $font-color;
+}
+
+#nav .active:hover a {
+    color: $font-alternative-color;
 }

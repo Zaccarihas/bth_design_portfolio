@@ -6515,6 +6515,14 @@ pre code {
   background-color: #032d33;
 }
 
+#nav .active a {
+  color: #cdcdcd;
+}
+
+#nav .active:hover a {
+  color: #dedede;
+}
+
 .slide {
   overflow-y: hidden !important;
   transition: height 0.5s ease-in !important;
@@ -6609,7 +6617,7 @@ video {
 img + em {
   font-style: italic;
   font-weight: bold;
-  color: #534e21;
+  color: #032d33;
   font-size: 0.8em;
 }
 
@@ -6754,7 +6762,7 @@ img + em {
 }
 .techpresentation aside a {
   text-decoration: none;
-  color: #534e21;
+  color: #383417;
 }
 .techpresentation aside .active {
   color: #032d33;

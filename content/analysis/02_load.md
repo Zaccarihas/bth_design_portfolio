@@ -30,7 +30,7 @@ Jag mätte varje sida via [PageSpeed Insight](https://pagespeed.web.dev/) och an
 Nedladdningen av varje sida mätte jag också via Chromes Dev Tools (Network) och noterade resultaten i en sammanställning.
 
 *Resultatsammanställning*
-<iframe class="calcsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR-PDqzYCN8P9Bm-ik3Q4Rt-qJ0CRj8oQCfJaxNiZ0X2Ez7u6vk4cSM914Gog2Z9lW5b2-A6-s67jw1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe class="calcsheet" title="Sammanställning av prestanda mätvärden" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR-PDqzYCN8P9Bm-ik3Q4Rt-qJ0CRj8oQCfJaxNiZ0X2Ez7u6vk4cSM914Gog2Z9lW5b2-A6-s67jw1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 
 Avslutningsvis gick jag igenom och jämförde resultaten för att försöka förstå inom vilket område som respektive sida kunde förbättras.
