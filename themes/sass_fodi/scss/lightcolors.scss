@@ -1,6 +1,6 @@
 // Color palette
 $main-color: #de9800;
-$comp-down-dark: #787030;
+$comp-down-dark: rgb(120, 112, 48);
 $comp-down-light: #ab9911;
 $comp-up-light: #38a1e2;
 $comp-up-dark: #1198ab;
@@ -12,6 +12,7 @@ $font-alternative-color: #fff;
 $body-background-color: #e9e9e9;
 $page-background-color: #fff;
 $report-heading: $comp-up-dark-shade;
+$transparent-background: rgba(120, 112, 48, 0.5);
 
 
 
